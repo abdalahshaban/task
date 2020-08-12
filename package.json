@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "angular-responsive-carousel": "^1.2.9",
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
     "rxjs": "~6.4.0",

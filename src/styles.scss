@@ -1,2 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+
+html{
+  scroll-behavior: smooth;
+}
+
+.owl-carousel .owl-item img{
+  display: unset !important;
+  width: auto !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background-color: #254a99 !important;
+}

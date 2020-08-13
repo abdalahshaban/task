@@ -4,3 +4,95 @@
 .navbar-light .navbar-nav .active > .nav-link {
     color: #4884ff;
 }
+
+.tabs {
+    border-radius: 25px;
+    height: 30px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #4884ff;
+    background-color: silver;
+    margin: 10px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 5vw);
+    grid-gap: 15px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .gallery_item-1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .gallery_item-2 {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    .gallery_item-3 {
+        grid-column-start: 7;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        grid-row-end: 8;
+    }
+    .gallery_item-4 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 11;
+    }
+    .gallery_item-5 {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 4;
+        grid-row-end: 11;
+    }
+    .gallery_item-6 {
+        grid-column-start: 7;
+        grid-column-end: 10;
+        grid-row-start: 8;
+        grid-row-end: 10;
+    }
+    .gallery_item-7 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 11;
+        grid-row-end: 11;
+    }
+    .gallery_item-8 {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 11;
+        grid-row-end: 12;
+        height: 200px;
+    }
+    .gallery_item-9 {
+        grid-column-start: 7;
+        grid-column-end: 10;
+        grid-row-start: 10;
+        grid-row-end: 12;
+    }
+}
+
+.links {
+    border-radius: 50%;
+    background-color: #427bff;
+    margin-right: 1vh;
+    img{
+        padding: 7px;
+    }
+}
+#map {
+    height: 600px;
+}

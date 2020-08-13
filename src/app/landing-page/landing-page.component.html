@@ -1,7 +1,7 @@
 <div class="header">
     <div style="padding: 5px 15px 5px 15px;">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Aphrie</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -12,16 +12,16 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#about-us">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portifilo</a>
+                        <a class="nav-link" href="#portfoli">Portifilo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -29,7 +29,7 @@
     </div>
 </div>
 
-<div class="intro">
+<div class="intro" id="#home">
     <div style="position: relative;">
         <img class="img-fluid" src="../../assets/images/intro-bg.png" alt="">
         <div style="position: absolute;top: 25%;left: 10%;">
@@ -44,8 +44,6 @@
                             </div>
                             <div class="col-12">
                                 <div class="row">
-                                    <!-- <button type="button" class="btn btn-primary">Get Started</button>
-                                    <button type="button" class="btn btn-primary">Our Services</button> -->
                                     <div class="col-6">
                                         <button type="button" class="btn btn-primary">Get Started</button>
                                     </div>
@@ -69,7 +67,7 @@
 
 
 
-<div class="about-us container" style="margin-top: 15px;margin-bottom: 20px;">
+<div class="about-us container" id="about-us" style="margin-top: 15px;margin-bottom: 20px;">
 
     <div class="row d-flex justify-content-center">
         <div class="col-xs-1-12">
@@ -314,7 +312,7 @@
 </div>
 
 
-<div class="our-portfoli" style="margin-bottom: 5vh;">
+<div class="our-portfoli" id="portfoli" style="margin-bottom: 5vh;">
     <div class="container">
         <div class="row">
             <div class="col-12" style="padding: 15px;text-align: center;">
@@ -322,44 +320,16 @@
             </div>
             <div class="col-12 tab d-flex justify-content-center">
                 <div class="row">
-                    <div style="background-color: #254a99;border-radius: 25px;
-    height: 30px;
-    width: 75px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: white;
-    margin: 10px;">
+                    <div class="tabs" style=" background-color: #254a99;color: white;">
                         All
                     </div>
-                    <div style="background-color:silver;color: #22458f;border-radius: 25px;
-    height: 30px;
-    width: 75px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: #4884ff;
-    margin: 10px;">
+                    <div class="tabs">
                         App
                     </div>
-                    <div style="background-color:silver;color: #22458f;border-radius: 25px;
-    height: 30px;
-    width: 75px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: #4884ff;
-    margin: 10px;">
+                    <div class="tabs">
                         Card
                     </div>
-                    <div style="background-color:silver;color: #22458f;border-radius: 25px;
-    height: 30px;
-    width: 75px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: #4884ff;
-    margin: 10px;">
+                    <div class="tabs">
                         Web
                     </div>
                 </div>
@@ -368,86 +338,33 @@
     </div>
 
     <div class="container">
-        <div style=" display: grid;
-        grid-template-columns: repeat(9, 1fr);
-        grid-template-rows: repeat(9, 5vw);
-        grid-gap: 15px;">
-            <div style="margin: 10px; 
-            grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 5;
-            " class="gallery__item--1">
-                <img style="width: 100%;
-                height: 100%;
-                object-fit: cover;
-                border-radius: 10px;
-                " src="../../assets/images/app1.jpg" alt="">
+        <div class="images">
+            <div class="gallery_item-1">
+                <img src="../../assets/images/app1.jpg" alt="">
             </div>
-            <div style="margin: 10px; grid-column-start: 4;
-            grid-column-end: 7;
-            grid-row-start: 1;
-            grid-row-end: 4;" class="gallery__item--2">
-                <img style="width: 100%;
-                height: 100%;
-                object-fit: cover;border-radius: 10px;" src="../../assets/images/app2.jpg" alt="">
+            <div class="gallery_item-2">
+                <img src="../../assets/images/app2.jpg" alt="">
             </div>
-            <div style="margin: 10px;grid-column-start: 7;
-            grid-column-end: 10;
-            grid-row-start: 1;
-            grid-row-end: 8;" class="gallery__item--3">
-                <img style="width: 100%;
-                height: 100%;
-                object-fit: cover;border-radius: 10px;" src="../../assets/images/app3.jpg" alt="">
+            <div class="gallery_item-3">
+                <img src="../../assets/images/app3.jpg" alt="">
             </div>
-            <div style="margin: 10px;grid-column-start: 1;
-            grid-column-end: 4;
-            grid-row-start: 5;
-            grid-row-end: 11;" class="gallery__item--4">
-                <img style="width: 100%;
-                height: 100%;
-                object-fit: cover;border-radius: 10px;" src="../../assets/images/card1.jpg" alt="">
+            <div class="gallery_item-4">
+                <img src="../../assets/images/card1.jpg" alt="">
             </div>
-            <div style="margin: 10px;grid-column-start: 4;
-            grid-column-end: 7;
-            grid-row-start: 4;
-            grid-row-end: 11;" class="gallery__item--5">
-                <img style="width: 100%;
-                height: 100%;
-                object-fit: cover;border-radius: 10px;" src="../../assets/images/card2.jpg" alt="">
+            <div class="gallery_item-5">
+                <img src="../../assets/images/card2.jpg" alt="">
             </div>
-            <div style="margin: 10px;grid-column-start: 7;
-            grid-column-end: 10;
-            grid-row-start: 8;
-            grid-row-end: 10;" class="gallery__item--6">
-                <img style="width: 100%;
-                height: 100%;
-                object-fit: cover;border-radius: 10px;" src="../../assets/images/card3.jpg" alt="">
+            <div class="gallery_item-6">
+                <img src="../../assets/images/card3.jpg" alt="">
             </div>
-            <div style="margin: 10px;grid-column-start: 1;
-            grid-column-end: 4;
-            grid-row-start: 11;
-            grid-row-end: 11;" class="gallery__item--7">
-                <img style="width: 100%;
-                height: 100%;
-                object-fit: cover;border-radius: 10px;" src="../../assets/images/web1.jpg" alt="">
+            <div class="gallery_item-7">
+                <img src="../../assets/images/web1.jpg" alt="">
             </div>
-            <div style="margin: 10px;grid-column-start: 4;
-            grid-column-end: 7;
-            grid-row-start: 11;
-            grid-row-end: 12;
-            height: 200px;" class="gallery__item--8">
-                <img style="width: 100%;
-                height: 100%;
-                object-fit: cover;border-radius: 10px;" src="../../assets/images/web2.jpg" alt="">
+            <div class="gallery_item-8">
+                <img src="../../assets/images/web2.jpg" alt="">
             </div>
-            <div style="margin: 10px;grid-column-start: 7;
-            grid-column-end: 10;
-            grid-row-start: 10;
-            grid-row-end: 12;" class="gallery__item--9">
-                <img style="width: 100%;
-                height: 100%;
-                object-fit: cover;border-radius: 10px;" src="../../assets/images/web3.jpg" alt="">
+            <div class="gallery_item-9">
+                <img src="../../assets/images/web3.jpg" alt="">
             </div>
 
         </div>
@@ -466,35 +383,31 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-3" style="text-align: end;">
-                <img class="img-fluid" style="border-radius: 50%;height: 100px;"
-                    src="../../assets/images/testimonial-1.jpg" alt="">
-            </div>
-            <div class="col-9">
-                <div class="row">
-                    <div class="col-12">
-                        saul Goodman
-                    </div>
-                    <div class="col-12">
-                        Ceo & Founder
-                    </div>
-                    <div class="col-12">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quaerat hic aut. Eos
-                        repellat
-                        eveniet doloribus blanditiis, impedit nesciunt ea facilis distinctio voluptates dolorum
-                        culpa
-                        quae
-                        consequuntur ipsa ipsam eligendi.
+        <owl-carousel [options]="mySlideOptions" [items]="users" [carouselClasses]="['owl-theme', 'sliding']">
+            <div class="row" *ngFor="let user of users;let i = index">
+                <div class="col-3" style="text-align: end;">
+                    <img class="img-fluid" style="border-radius: 50%;height: 100px;" src="{{user.avatar}}" alt="">
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-12">
+                            {{user.first_name}} {{user.last_name}}
+                        </div>
+                        <div class="col-12">
+                            Ceo & Founder {{testimonials.ad.company}}
+                        </div>
+                        <div class="col-12">
+                            {{testimonials.ad.text}}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </owl-carousel>
     </div>
 </div>
 
 
-<div class="team" style="margin-top: 5vh;">
+<div class="team" id="team" style="margin-top: 5vh;">
     <div class="row" style="text-align: center;">
         <div class="col-12 p-3">
             Team
@@ -557,7 +470,7 @@
     </div>
 </div>
 
-<div class="contact-us" style="margin-top: 5vh;">
+<div class="contact-us" id="contact" style="margin-top: 5vh;">
     <div class="row" style="text-align: center;">
         <div class="col">
             Contact Us
@@ -566,7 +479,7 @@
 
     <div class="contact-form container-fluid" style="margin-top: 2vh;">
         <div class="row">
-            <div class="col-6 map">
+            <div class="col-6" leaflet [leafletOptions]="mapOptions" (leafletMapReady)="onMapReady($event)">
 
             </div>
             <div class="col-6 form">
@@ -602,6 +515,94 @@
                         </div>
                     </form>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="company-info" style="background-color: #254a99;margin-top: 5vh;">
+    <div class="container" style="padding: 30px;">
+        <div class="row" style="margin-bottom: 3vh;">
+            <div class="col-4">
+                WELCOME
+            </div>
+            <div class="col">
+                Useful Link
+            </div>
+            <div class="col">
+                contact us
+            </div>
+            <div class="col">
+                our newsletter
+            </div>
+        </div>
+        <div class="row" style="text-align: justify;">
+            <div class="col-4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum asperiores a officiis. Dolores
+                assumenda distinctio ea illo veniam praesentium rem, ipsa ut sunt iusto ullam mollitia reiciendis
+                tempora optio accusantium!
+            </div>
+            <div class="col-2" style="line-height: 2.3;">
+                <div>Home</div>
+                <div>About us</div>
+                <div>services</div>
+                <div>terms of services</div>
+                <div>privacy policy</div>
+            </div>
+            <div class="col-3">
+                <p>A 108 Adam Street</p>
+                <p>New York , NY 5322200</p>
+                <p>United States</p>
+                <p><b>Phone:</b>+1 5589 55488 55</p>
+                <p><b>Email:</b>info@examole.com</p>
+
+                <div class="social" style="display: flex;">
+                    <div class="links">
+                        <img class="img-fluid" src="../../assets//twitter.png" alt="">
+                    </div>
+                    <div class="links">
+                        <img class="img-fluid" src="../../assets/facebook.png" alt="">
+                    </div>
+                    <div class="links">
+                        <img class="img-fluid" src="../../assets/instagram.png" alt="">
+                    </div>
+                    <div class="links">
+                        <img class="img-fluid" src="../../assets/google-plus.png" alt="">
+                    </div>
+                    <div class="links">
+                        <img class="img-fluid" src="../../assets/linkedin.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nisi obcaecati laborum magnam
+                    omnis officiis repudiandae suscipit adipisci, amet quod velit, sequi recusandae! Numquam similique
+                    corporis porro velit ducimus dignissimos!
+                </div>
+                <div class="input-group mb-3 mt-3">
+                    <input type="text" class="form-control">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer"
+    style="background-color: #22458f; height: 15vh;display: flex;align-items: center;justify-content: center;">
+    <div class="container">
+        <div class="row" style="text-align: center;">
+            <div class="col-11">
+                &copy; CopyRight .All Rights Reserved UWK
+            </div>
+            <div class="col-1" style="text-align: end;">
+                <a class="nav-link" href="#navbarNav">
+                    <img class="img-fluid" style="height: 30px;width: 30px;" src="../../assets/top.png" alt="">
+                </a>
             </div>
         </div>
     </div>
